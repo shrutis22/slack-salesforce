@@ -12,7 +12,7 @@ This is achieved using the new **Workflow Builder** feature in Slack and **Exter
 
 3.  Created a **Named Credential** in Salesforce with URL - https://hooks.slack.com. (_No Auth_)
 
-4.  Import the Swagger Schema construted in Step 2 using **External Services**.
+4.  Import the Swagger Schema constructed in Step 2 using **External Services**.
 
 5.  Create a **Flow** as shown below:
 ![image](https://user-images.githubusercontent.com/16715515/82121553-9f895200-97ab-11ea-82d3-6e6aaa94f5d4.png)
