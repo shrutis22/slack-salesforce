@@ -6,11 +6,11 @@
 
 This is achieved using the new **Workflow Builder** feature in Slack and **External Services** in Salesforce. Here are the steps in brief:
 
-1.  Using the **Slack Workflow Builder**, create and publish a Workflow that post messages into a _Slack Channel_ and is triggered by a **Webhook**. Read for more info: https://slack.com/intl/en-in/help/articles/360035692513-Guide-to-Workflow-Builder.
+1.  Using the **Slack Workflow Builder**, create and publish a Workflow that post messages into a _Slack Channel_ and is triggered by a **Webhook**. Read for more info: (https://slack.com/intl/en-in/help/articles/360035692513-Guide-to-Workflow-Builder)[https://slack.com/intl/en-in/help/articles/360035692513-Guide-to-Workflow-Builder].
 
 2.  Construct a **Swagger Schema** for the Webhook provided by Slack (_in Step 1_). Use the **Template** given below to get started.
 
-3.  Created a **Named Credential** in Salesforce with URL - https://hooks.slack.com. (_No Auth_)
+3.  Created a **Named Credential** in Salesforce with URL - (https://hooks.slack.com)[https://hooks.slack.com]. (_No Auth_)
 
 4.  Import the Swagger Schema constructed in Step 2 using **External Services**.
 
@@ -63,7 +63,7 @@ This is achieved using the new **Workflow Builder** feature in Slack and **Exter
   }
 }
 ```
-> ⚠️ Note: To **validate** a Swagger Schema (_written by yourself_), visit - http://editor.swagger.io/.
+> ⚠️ Note: To **validate** a Swagger Schema (_written by yourself_), visit - (http://editor.swagger.io/)[http://editor.swagger.io/].
 
 > ⚠️ Note: Please DO NOT forget to replace `[REPLACE THIS WITH YOUR WEBHOOK]` in the above _Template Swagger Schema_ with the Webhook of your Slack Workflow.
 
@@ -71,5 +71,5 @@ This is achieved using the new **Workflow Builder** feature in Slack and **Exter
 Coming soon!
 
 ## 🔗 Resources
-1. Trailhead (https://trailhead.salesforce.com/en/content/learn/modules/external-services
-2. Blogs (https://shrutisridharan.wordpress.com/tag/external-services/)
+1. Trailhead (https://trailhead.salesforce.com/en/content/learn/modules/external-services)[https://trailhead.salesforce.com/en/content/learn/modules/external-services]
+2. Blogs (https://shrutisridharan.wordpress.com/tag/external-services/)[https://shrutisridharan.wordpress.com/tag/external-services/]
