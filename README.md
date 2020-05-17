@@ -2,6 +2,11 @@
 ### Presented at VirtualDreamin'20
 ![Recording-_331](https://user-images.githubusercontent.com/16715515/82121440-af546680-97aa-11ea-864d-da0d06ebdcfe.gif)
 
+## 📺 Walkthrough
+1. Slide Deck - https://docs.google.com/presentation/d/1Qsz_CFvs-1qHIRwkMjlp_7vP8ynY7blh/edit#slide=id.p1
+2. Video Walkthrough - Coming Soon!
+3. Q & A - Coming Soon!
+
 ## 🛠️ How is this done (5 simple steps!)?
 
 This is achieved using the new **Workflow Builder** feature in Slack and **External Services** in Salesforce. Here are the steps in brief:
@@ -66,9 +71,6 @@ This is achieved using the new **Workflow Builder** feature in Slack and **Exter
 > ⚠️ Note: To **validate** a Swagger Schema (_written by yourself_), visit - [http://editor.swagger.io/](http://editor.swagger.io/).
 
 > ⚠️ Note: Please DO NOT forget to replace `[REPLACE THIS WITH YOUR WEBHOOK]` in the above _Template Swagger Schema_ with the Webhook of your Slack Workflow.
-
-## 📺 Walkthrough
-Coming soon!
 
 ## 🔗 Resources
 1. Trailhead [https://trailhead.salesforce.com/en/content/learn/modules/external-services](https://trailhead.salesforce.com/en/content/learn/modules/external-services)
